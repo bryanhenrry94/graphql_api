@@ -1,0 +1,25 @@
+{
+  "name": "graphql_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -e js,graphql index",
+    "lint": "standard",
+    "lint-fix": "standard --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bryan Navarrete",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.2.1",
+    "graphql-tools": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "standard": "^17.0.0"
+  }
+}
